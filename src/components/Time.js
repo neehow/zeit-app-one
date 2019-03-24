@@ -12,7 +12,7 @@ class Time extends Component {
   render() {
     return (
       <p>
-        It's {this.state.time.toLocaleString()} now.
+        现在时间：{this.state.time.toLocaleString()}
       </p>
     )
   }
