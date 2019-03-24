@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Time from './components/Time'
+import MaterialDemo from './components/MaterialDemo';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <h3>你好，朋友！</h3>
         <Time />
+        <MaterialDemo />
       </div>
     );
   }
