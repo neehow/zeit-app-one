@@ -1,0 +1,14 @@
+.page-link {
+  display: block;
+  width: 60%;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10% auto;
+  color: rgb(27, 33, 37);
+  background-color: #EEF7FC;
+}
+
+.page-link:hover {
+  color: #000;
+}

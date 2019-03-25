@@ -31,7 +31,7 @@ const styles = theme => ({
   },
   avatar: {
     margin: theme.spacing.unit,
-    backgroundColor: theme.palette.secondary.main,
+    // backgroundColor: theme.palette.secondary.main,
   },
   form: {
     width: '100%', // Fix IE 11 issue.
@@ -79,7 +79,7 @@ function TransferColor(props) {
     <main className={classes.main}>
       <CssBaseline />
       <Paper className={classes.paper}>
-        <Avatar className={classes.avatar}>
+        <Avatar className={classes.avatar} style={{backgroundColor: rgb}}>
           <ColorizeRoundedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
