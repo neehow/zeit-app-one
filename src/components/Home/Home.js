@@ -5,8 +5,9 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className="App">
+    <div className="home">
       <Link to="/color-converter/" className="page-link">Hex-RGB颜色转换</Link>
+      <p className="more-text">更多页面开发中...</p>
       <Footer />
     </div>
   )
