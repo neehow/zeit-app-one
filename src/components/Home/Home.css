@@ -2,6 +2,7 @@
   text-align: center;
   padding-top: 50px;
   min-height: 100vh;
+  overflow: auto;
 }
 
 .page-link {
